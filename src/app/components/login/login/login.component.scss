@@ -1,0 +1,47 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    height: 97vh;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: 200px;
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid lightseagreen;
+            margin: 10px;
+        }
+    }
+
+    button {
+        width: 200px;
+        padding: 5px;
+        background: cornflowerblue;
+        color: white;
+        border-radius: 4px;
+        border: none;
+    }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin: 10px 16px;
+        }
+
+        .btn{
+            button:hover {
+                background: lightseagreen;
+                color: white;
+                pointer-events: pointer;
+                cursor: pointer;
+            }
+            button:disabled{
+                background-color: dimgrey;
+                pointer-events: none;
+            }
+        }
+}

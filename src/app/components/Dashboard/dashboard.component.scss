@@ -1,0 +1,64 @@
+.investment-container {
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        flex-wrap: wrap;
+
+        div {
+            height: max-content;
+            display: grid;
+            margin: 6px 0px;
+
+            label {
+                margin: 5px 0;
+                font-size: 14px;
+                font-weight: bold;
+                color: teal;
+            }
+
+            input {
+                width: 200px;
+                padding: 5px;
+                border-radius: 4px;
+                border: 1px solid lightseagreen;
+            }
+
+            select {
+                width: 212px;
+                padding: 5px;
+                border-radius: 4px;
+                border: 1px solid lightseagreen;
+            }
+
+            textarea {
+                width: 500px;
+                padding: 5px;
+                border-radius: 4px;
+                border: 1px solid lightseagreen;
+            }
+        }
+
+    }
+
+    .sbt-btn {
+        width: 212px;
+        padding: 5px;
+        border-radius: 4px;
+    }
+
+
+    .sbt-btn:disabled {
+        background-color: lightgray;
+        pointer-events: none;
+        color: white;
+    }
+
+    .sbt-btn:hover {
+        background: lightseagreen;
+        color: white;
+        pointer-events: pointer;
+        cursor: pointer;
+    }
+}
